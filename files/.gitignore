@@ -1,0 +1,27 @@
+# Konfigurační soubor s credentials (NIKDY na GitHub)
+src/php/config.php
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logy a cache
+*.log
+/var/
+/tmp/
+
+# Nahrané soubory (avatary apod.)
+src/uploads/avatar/*.jpg
+src/uploads/avatar/*.jpeg
+src/uploads/avatar/*.png
+src/uploads/avatar/*.gif
+src/uploads/avatar/*.webp
+
+# Composer (pokud bude přidán)
+vendor/
+composer.lock
